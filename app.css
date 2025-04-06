@@ -1,6 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html{
+  font-size: 62.5%;
+}
 
+body{
+  background-color: hsl(47, 88%, 63%);
+}
 
+.main-container{
+  min-height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-card{
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid hsl(0, 0%, 7%);
+  max-width: 292px;
+  box-shadow: 6px 6px hsl(0, 0%, 7%);;
+}
+
+.illustration-img{
+  width: 250px;
+  border-radius: 7px;
+  margin-bottom: 1.5rem;
+}
+
+.title{
+  font-size: 1.1rem;
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+
+.date{
+  color: hsl(0, 0%, 7%);
+  font-size: 1.1rem;
+}
+
+.preview-card a{
+  text-decoration: none;
+}
+
+.course-name{
+  text-decoration: none;
+  color: hsl(0, 0%, 7%);
+  font-size: 1.8rem;
+  margin: 1.5rem 0rem;
+  cursor: pointer;
+}
+
+.course-detail{
+  color: hsl(0, 0%, 42%);
+  font-size: 1.3rem;
+  max-width: 260px;
+  line-height: 1.4;
+  margin-bottom: 1.5rem;
+}
+
+.profile-container{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-container img{
+  width: 25px;
+}
+
+.profile-container h5{
+  font-size: 1.1rem;
+}
 
 
 .attribution { 
