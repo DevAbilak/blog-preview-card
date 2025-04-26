@@ -68,7 +68,7 @@ body{
   transition: 0.1s;
 }
 
-.course-name:hover{
+.course-name:hover, .course-name:focus{
   color: hsl(47, 88%, 63%);
 }
 
