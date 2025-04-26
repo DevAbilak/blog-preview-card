@@ -68,7 +68,7 @@ body{
   transition: 0.1s;
 }
 
-.course-name:active{
+.course-name:hover{
   color: hsl(47, 88%, 63%);
 }
 
@@ -98,10 +98,21 @@ body{
 
 
 .attribution { 
+  color: hsl(0, 0%, 7%);
   font-size: 1.1rem; 
   text-align: center; 
 }
     
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width:425px) {
+  html{
+    font-size: 50%;
+  }
+
+  .preview-card{
+    max-width: 280px;
+  }
 }
