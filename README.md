@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/DevAbilak/blog-preview-card)
-- Live Site URL: [](https://devabilak.github.io/blog-preview-card/)
+- Solution URL: [solution URL](https://github.com/DevAbilak/blog-preview-card)
+- Live Site URL: [live site URL](https://devabilak.github.io/blog-preview-card/)
 
 ## My process
 
